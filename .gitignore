@@ -1,0 +1,39 @@
+# Binaries
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+*.test
+*.out
+
+# Dependency directories
+vendor/
+
+# Go modules
+go.sum
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated gRPC code
+proto/*.pb.go
+proto/*.grpc.go
+
+# Environment files
+.env
+.env.*
