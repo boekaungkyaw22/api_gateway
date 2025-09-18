@@ -13,17 +13,3 @@ It exposes **REST endpoints** and proxies requests to backend microservices usin
 - Built with **Go + Chi + gRPC**
 
 ---
-
-## 📂 Project Structure
-api-gateway/
- ├── cmd/               # Entry point
- ├── internal/
- │   ├── config/        # Load env/config
- │   ├── server/        # HTTP server setup
- │   ├── routes/        # Route definitions
- │   ├── handlers/      # REST handlers
- │   ├── clients/       # gRPC clients
- │   ├── middleware/    # JWT, logging, metrics
- │   └── utils/         # JSON response helpers
- ├── proto/             # Protobuf definitions + generated code
- └── go.mod
